@@ -7,7 +7,7 @@ A comprehensive robotics framework for autonomous sandwich preparation using the
 The Sandwich Kitchen project demonstrates an integrated robotic system that:
 - Receives sandwich orders via socket communication
 - Plans and executes manipulation tasks
-- Controls a real XArm robot with gripper
+- Controls a real XArm robot with a gripper
 - Handles various food items and assembly sequences
 - Provides simulation and visualization capabilities
 
@@ -77,13 +77,6 @@ Trajectory Execution → Item Pickup → Assembly → Completion
 ```
 
 ### Core Components
-
-1. **Robot Controller**: Manages real-time robot communication
-2. **Motion Planner**: Generates collision-free trajectories
-3. **Grasp Planner**: Determines optimal grasping strategies
-4. **Visualization System**: Real-time 3D visualization
-5. **Vision System**: Perceives environment and objects
-
 ## Configuration
 
 ### Robot Configuration
