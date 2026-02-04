@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "xarm-robot": {
+      "command": "/home/lqin/miniconda3/envs/wrs/bin/python",
+      "args": [
+        "/home/lqin/VLA-Adapter/VLA-Adapter/mcp_control/mcp_server_robot.py"
+      ]
+    }
+  }
+}
